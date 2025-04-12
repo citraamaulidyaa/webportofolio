@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Pribadi</title>
+
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    header, nav, footer {
+      border-bottom: 1px solid #ccc;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    audio {
+      margin-top: 5px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #0077cc;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 20px 0;
+    }
+
+    h2 {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+
+    img, video {
+      width: 100%;
+      height: auto;
+      margin-top: 10px;
+    }
+
+    form input, form select, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    form button {
+      padding: 10px 20px;
+    }
+
+    .media-sosial a {
+      display: inline-block;
+      margin: 5px 10px;
+      text-decoration: none;
+      color: #0077cc;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1 style="font-size: 50px;">Portofolio Pribadi</h1>
+    </div>
+    
+    <hr style="
+    margin: 20px 0;
+    width: 100%;
+    border: none;
+    border-top: 1px solid #ccc;
+    ">
+
+    <div class="container">
+    <p>Yuk! lihat lihat sambil dengerin musik𝄞</p>
+    <audio controls>
+      <source src="Audio/Untukku - Chrisye.mp3" type="audio/mp3">
+    </audio>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <a href="#about">Tentang Saya</a> |
+      <a href="#projects">Proyek/Karya</a> |
+      <a href="#multimedia">Multimedia</a> |
+      <a href="#formulir">Formulir</a> |
+      <a href="#contact">Kontak</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section id="about">
+      <h2>Tentang Saya</h2>
+      <img src="Gambar/profil.png" alt="profil">
+      <img src="Gambar/hobi.png" alt="hobi">
+    </section>
+
+    <section id="projects">
+      <h2>Proyek / Karya</h2>
+      <img src="Gambar/proyek.png" alt="proyek">
+    </section>
+
+    <section id="multimedia">
+      <h2>Multimedia</h2>
+      <p>Vidio Profil dosen Sistem Informasi UISI</p>
+      <video controls>
+        <source src="Vidio/profil dosen.mp4" type="video/mp4">
+      </video>
+    </section>
+
+    <section id="formulir">
+      <h2>Formulir</h2>
+      <p>Jika ingin menghubungi saya, silahkan isi formulir dibawah ini.</p>
+      <form action="#" method="post">
+        <input type="text" name="nama" placeholder="Nama lengkap" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="tel" name="nomor telepon" placeholder="Nomor Telepon" required>
+        <textarea name="pesan" rows="5" placeholder="Tulis pesan..." required></textarea>
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+  </main>
+
+  <aside class="container">
+    <section id="contact">
+      <h2>Kontak</h2>
+      <p>
+        <a href="https://wa.me/6285812798061" target="_blank">WhatsApp</a> |
+        <a href="https://www.instagram.com/mauldycitra" target="_blank">Instagram</a>
+      </p>
+    </section>
+  </aside>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Citra Maulidya. Dibuat untuk Praktikum 2.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
